@@ -1,5 +1,6 @@
 {
   "css.customData": [".vscode/css_custom_rules.json"],
   "editor.formatOnSave": true,
-  "tailwindCSS.emmetCompletions": true
+  "tailwindCSS.emmetCompletions": true,
+  "css.validate": false
 }
