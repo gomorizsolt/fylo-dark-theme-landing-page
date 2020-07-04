@@ -1,4 +1,4 @@
 /node_modules
 
 # Tailwind generated styles
-tailwind/generated.css
+assets/tailwind/tailwind.generated.css
