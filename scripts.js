@@ -5,6 +5,7 @@ buttonElement.title = "Open menu";
 
 buttonElement.addEventListener("click", () => {
   navigationElement.classList.toggle("show");
+  buttonElement.classList.toggle("show");
 
   if (navigationElement.classList.contains("show")) {
     buttonElement.title = "Close menu";
