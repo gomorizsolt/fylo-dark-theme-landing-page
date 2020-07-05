@@ -6,7 +6,7 @@
     "build": "cross-env NODE_ENV=production postcss assets/styles/tailwind.css -o assets/styles/tailwind.generated.css",
     "watch:tailwind": "postcss -w assets/styles/tailwind.css -o assets/styles/tailwind.generated.css",
     "dev": "run-p watch:tailwind dev:server",
-    "dev:server": "live-server --port=3000 --no-browser --watch='./index.html','./assets/styles/tailwind.generated.css'"
+    "dev:server": "live-server --port=3000 --no-browser"
   },
   "repository": {
     "type": "git",

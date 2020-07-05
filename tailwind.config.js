@@ -20,7 +20,7 @@ module.exports = {
         header: "95vh",
       },
       maxWidth: {
-        testimonial: "30px",
+        wrapper: "1000px",
       },
       fontSize: {
         "2xs": ".6rem",
